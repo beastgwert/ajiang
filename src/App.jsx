@@ -9,8 +9,9 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 
 // #EFFFC8 
+const darkColorList = ['#250001', 'rgb(17 24 39)', '#151515', '#3A2E39', '#32322C'];
 const light = '#F9FBF2';
-const dark = 'rgb(17 24 39)';
+const dark = darkColorList[4];
 const getDesign= (newMode) => ({
   palette: {
     primary: {

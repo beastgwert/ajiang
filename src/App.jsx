@@ -41,10 +41,10 @@ const getDesign= (newMode) => ({
 });
 
 function App() {
-  const [mode, setMode] = useState('dark');
+  const [mode, setMode] = useState('light');
   const theme = useMemo(() => createTheme(getDesign(mode)), [mode]);
-  const outlet = useOutlet();
   const [curPage, setCurPage] = useState('');
+  const outlet = useOutlet([setCurPage]);
 
   function toggleDark(){
     setMode(mode == 'light' ? 'dark' : 'light');

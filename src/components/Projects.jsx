@@ -1,8 +1,15 @@
 import { Box, Typography } from "@mui/material";
 import ProjectEntry from "./ProjectEntry";
 import TableOfContents from "./TableOfContents";
+import { useOutletContext } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Projects(){
+    const [setCurPage] = useOutletContext();
+    useEffect(() => {
+        setCurPage("projects");
+    }, []);
+
     return (
         <Box>
             <Box className = 'project-intro' sx={{pl: '25%', pr: '25%', pt: 15, display: 'flex', flexDirection: 'column', gap: 3}}>

@@ -2,7 +2,7 @@ import { Box, Fade, Typography } from "@mui/material"
 
 export default function Home(){
     return (
-        <Fade in={true} timeout={500}>
+        <Fade in={true} timeout={1000}>
             <Box className="home-content" sx={{flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 3, pt: 10}}>
               <Box component="img" sx={{ 
                   borderRadius: '50%',

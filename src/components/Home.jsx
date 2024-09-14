@@ -1,8 +1,8 @@
-import { Box, Typography } from "@mui/material"
+import { Box, Fade, Typography } from "@mui/material"
 
-export default function Home({mode}){
+export default function Home(){
     return (
-        <>
+        <Fade in={true} timeout={500}>
             <Box className="home-content" sx={{flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 3, pt: 10}}>
               <Box component="img" sx={{ 
                   borderRadius: '50%',
@@ -27,6 +27,6 @@ export default function Home({mode}){
             </Box>
 
             
-        </>
+        </Fade>
     )
 }

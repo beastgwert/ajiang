@@ -8,6 +8,7 @@ export default function TableOfContents(){
                 Table of Contents
             </Typography>
             <Box sx={{display: 'flex', flexDirection: 'column', gap: 1}}>
+                <TableOfContentsEntry projectName="Spotify Loop" projectDate="Dec 2024"/>
                 <TableOfContentsEntry projectName="Anime Showdown" projectDate="Aug 2024"/>
                 <TableOfContentsEntry projectName="A2C Resume Builder" projectDate="Jun 2024"/>
                 <TableOfContentsEntry projectName="Command Line Chess" projectDate="Jun 2023"/>

@@ -8,8 +8,8 @@ export default function Home(){
                   borderRadius: '50%',
                   border: 1,
                   borderColor: 'secondary.main',
-                  maxHeight: '15rem',
-                  maxWidth: '15rem',
+                  maxHeight: '20rem',
+                  maxWidth: '20rem',
                 }}
                 alt="Beautiful picture of Albert"
                 src="/pfp.webp"

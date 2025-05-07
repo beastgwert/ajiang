@@ -55,6 +55,16 @@ html {
   transform-origin: top;
 }
 
+@keyframes zoomIn {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
 .list-content:not(.open) div, .list-content:not(.open) .list-item{
   height: 0;
   font-size: 0;

@@ -26,12 +26,25 @@ export default function Projects(){
                 <TableOfContents/>
                 
                 <ProjectEntry
+                projectTitle='Super Smash GB'
+                projectDate='April 2025'
+                tags={['Assembly','Game']}
+                caption='Super Smash Bros. adaptation for Game Boy'
+                descriptions={['Making a game purely in assembly is quite the experience, and I would not recommend any sane person to attempt to do so unless you have a lot of free time. With that being said, it was interesting to learn about the inner workings of the Game Boy and come up with ways to implement deceptively simple features around these constraints.',
+                    "We had less than two weeks to finish this so there were some features we didn't implement (i.e. support for more than 2 players), but thousands of lines of assembly later, we were able to create a surprisingly sophisticated smash adaptation.",
+                    "If you're feeling confident, try beating our custom AI!"
+                ]}
+                imgSrc={'super_smash_gb.webp'}
+                linkNames={['Github']}
+                linkUrls={['https://github.com/beastgwert/super-smash-gb']}
+                />
+                <ProjectEntry
                 projectTitle='Spotify Loop'
                 projectDate='December 2024'
                 tags={['Extension', 'React', 'Typescript', 'Material UI']}
                 caption='Chrome extension to store a playlist in the browser'
                 descriptions={['I often find myself guilty of listening to the same set of five songs and neglecting the two hundred other songs in a playlist. The most obvious solution is to loop over a new playlist, but I wanted a cleaner and more intuitive interface.',
-                    "I am currently waiting for a quota extension from Spotify, so if you want to try the extension, feel free to reach out so I can manually add you to the user access list. "
+                    "Currently waiting for a quota extension from Spotify, so if you want to try the extension, feel free to reach out so I can manually add you to the user access list. "
                 ]}
                 imgSrc={'spotify_loop.webp'}
                 linkNames={['Github', 'Website']}

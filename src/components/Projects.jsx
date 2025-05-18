@@ -26,6 +26,18 @@ export default function Projects(){
                 <TableOfContents/>
                 
                 <ProjectEntry
+                projectTitle='Google Form Tracker'
+                projectDate='May 2025'
+                tags={['Extension', 'Angular', 'AWS Lambda, S3']}
+                caption='Chrome extension to track Google Forms'
+                descriptions={["It has always blown my mind that Google doesn't have a dedicated interface to access in-progress/submitted forms, so I made an extension to organize Google Form submissions and drafts in one place; also adds a save button in case there is no “Send me a copy of my response” option so you don’t lose access to your responses. ",
+                    "I initially created the extension so that form information is stored in AWS, but I realized too late that there was no way this would fly with Google's TOS if I wanted to publish it, so I ended up refactoring to use the extension's local storage instead."
+                ]}
+                imgSrc={'google_form_tracker.webp'}
+                linkNames={['Github', 'Website']}
+                linkUrls={['https://github.com/beastgwert/google-form-history', 'https://chromewebstore.google.com/detail/google-form-tracker/icgmfflonhkdeafnmbjjkbhnmgfkgnbb']}
+                />
+                <ProjectEntry
                 projectTitle='Super Smash GB'
                 projectDate='April 2025'
                 tags={['Assembly','Game']}

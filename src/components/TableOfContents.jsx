@@ -1,4 +1,4 @@
-import { Box, Divider, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import TableOfContentsEntry from "./TableOfContentsEntry";
 
 export default function TableOfContents(){
@@ -8,6 +8,7 @@ export default function TableOfContents(){
                 Table of Contents
             </Typography>
             <Box sx={{display: 'flex', flexDirection: 'column', gap: 1}}>
+                <TableOfContentsEntry projectName="Google Form Tracker" projectDate="May 2025"/>
                 <TableOfContentsEntry projectName="Super Smash GB" projectDate="Apr 2025"/>
                 <TableOfContentsEntry projectName="Spotify Loop" projectDate="Dec 2024"/>
                 <TableOfContentsEntry projectName="Anime Showdown" projectDate="Aug 2024"/>

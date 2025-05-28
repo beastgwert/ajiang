@@ -19,7 +19,7 @@ export default function Home(){
               </Typography>
               <Typography variant='h5' sx={{width: '40%', fontSize: "1.3rem", lineHeight: 1.5}}>
               I'm currently studying Computer Science at the University of Texas at Austin as a <Link href="https://www.cs.utexas.edu/turing-scholars" sx={{color: "secondary.main", textDecoration: "underline"}}>Turing Scholar</Link> 
-              . In the past, I was involved in research in theoretical computer science during which I worked on optimizing algorithms for all kinds of networks. Lately, I've been focusing on creating functional and engaging websites, but my interests range from app development to machine learning to mathematics.
+              . In the past, I was involved in research in theoretical computer science during which I worked on optimizing algorithms for all kinds of networks. Lately, I've been focusing on creating functional and engaging apps, but my interests range from web development to machine learning to mathematics.
               </Typography>
               <Typography variant='h5' sx={{width: '40%', fontSize: "1.3rem", lineHeight: 1.5}}>
               On a random day, you might find me hooping at the gym, reading a book, playing DOTA 2, or if you're really lucky, singing to myself while jogging outside at 2 AM. 

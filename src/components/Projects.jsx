@@ -31,7 +31,7 @@ export default function Projects(){
                 tags={['Extension', 'Angular', 'AWS Lambda, S3']}
                 caption='Chrome extension to track Google Forms'
                 descriptions={["It has always blown my mind that Google doesn't have a dedicated interface to access in-progress/submitted forms, so I made an extension to organize Google Form submissions and drafts in one place; also adds a save button in case there is no “Send me a copy of my response” option so you don’t lose access to your responses. ",
-                    "I initially created the extension so that form information is stored in AWS, but I realized too late that there was no way this would fly with Google's TOS if I wanted to publish it, so I ended up refactoring to use the extension's local storage instead."
+                    "I initially stored form info in AWS, but I eventually realized there was no way this would fly with Google's TOS if I wanted to publish so I refactored to use the extension's local storage instead."
                 ]}
                 imgSrc={'google_form_tracker.webp'}
                 linkNames={['Github', 'Website']}
